@@ -1,5 +1,5 @@
 # text-algorithms
-Projeto para estudos de alguns algoritmos para texto, usando JavaScript e NodeJS.
+Projeto com estudos de alguns algoritmos para texto, usando JavaScript e NodeJS.
 
 # Artigos da série
 
