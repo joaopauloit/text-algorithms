@@ -1,10 +1,10 @@
 {
-  "name": "textAlgorithms",
+  "name": "textalgorithms",
   "version": "1.0.0",
   "description": "Text Algorithms",
   "main": "./bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./bin/index.test | tap-spec"
   },
   "author": "João Paulo R. S.",
   "license": "MIT",
@@ -15,5 +15,17 @@
     "boxen": "^4.0.0",
     "chalk": "^2.4.2",
     "yargs": "^13.2.4"
-  }
+  },
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopauloit/text-algorithms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaopauloit/text-algorithms/issues"
+  },
+  "homepage": "https://github.com/joaopauloit/text-algorithms#readme"
 }
